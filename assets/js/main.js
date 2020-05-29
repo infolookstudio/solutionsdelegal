@@ -32,6 +32,8 @@
 		$(".extra-info,.offcanvas-overly").removeClass("active");
 	});
 
+	// WOW active
+	new WOW().init();
 
 	// Activate lightcase
     $('a[data-rel^=lightcase]').lightcase();

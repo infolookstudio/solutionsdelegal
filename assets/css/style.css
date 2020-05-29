@@ -183,12 +183,28 @@ img {
 }
 
 /* Banner css */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .banner-area {
     min-height: 765px;
-    background-image: linear-gradient(90deg, #142E73, #A4067A);
     padding-top: 270px;
     position: relative;
     z-index: 1;
+    background: linear-gradient(-45deg, #142E73, #A4067A, #A4067A, #142E73);
+    animation: gradient 10s ease infinite;
+  background-size: 700%;
 }
 
 .banner-title {
@@ -424,7 +440,6 @@ span.cd-words-wrapper {
 }
 
 .singel-footer-box {
-    background-image: linear-gradient(90deg, #3C2873, #AC1C7B);
     text-align: center;
     padding: 100px;
     position: absolute;
@@ -433,6 +448,8 @@ span.cd-words-wrapper {
     backface-visibility: hidden;
     overflow: hidden;
     transition: all .5s ease;
+    transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+    transform-style: preserve-3d;
 }
 
 .singel-footer-box .title {
@@ -512,4 +529,8 @@ span.cd-words-wrapper {
 
 .solution-text .inline-btn img {
     transition: .3s;
+}
+
+.address {
+    color: #fff;
 }
