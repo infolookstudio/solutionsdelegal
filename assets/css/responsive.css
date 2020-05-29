@@ -1,0 +1,26 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Tablet desktop :768px. */
+@media (max-width: 991px) {
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+}
+
+/* Large Mobile :560px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+
+/* Device 575 */
+@media (max-width: 575px) {
+
+}
