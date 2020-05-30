@@ -499,12 +499,17 @@ span.cd-words-wrapper {
 }
 
 .social-links a {
-    font-size: 30px;
-    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #E5E5E5;
+    color: #00CAEF;
+    line-height: 50px;
 }
 
 .social-links a:not(:last-child) {
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .singel-footer-box.back {
@@ -535,4 +540,9 @@ span.cd-words-wrapper {
 
 .address {
     color: #fff;
+}
+.border-lef-right {
+    border: 2px solid #2D2D43;
+    border-top: 0px;
+    border-bottom: 0px;
 }
