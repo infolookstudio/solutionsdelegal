@@ -137,7 +137,7 @@ img {
     font-weight: 700;
     color: #3B438C;
     display: block;
-    padding: 10px 15px;
+    padding: 13px 15px;
     border-radius: 10px;
     font-family: 'Exo', sans-serif;
 }
@@ -454,8 +454,18 @@ span.cd-words-wrapper {
 .singel-footer-box .title {
     font-size: 22px;
     text-transform: uppercase;
-    color: #fff;
     font-weight: 700;
+    display: inline-block;
+    background: linear-gradient( 90deg, #58286C 0%, #14A9C6 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.title-inner {
+    font-size: 22px;
+    color: #fff;
 }
 
 .footer-box-wrap {
@@ -545,4 +555,8 @@ span.cd-words-wrapper {
     border: 2px solid #2D2D43;
     border-top: 0px;
     border-bottom: 0px;
+}
+
+.main-menu li:not(:last-child) {
+    margin-right: 8px;
 }
