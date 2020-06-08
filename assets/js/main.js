@@ -32,6 +32,33 @@
 		$(".extra-info,.offcanvas-overly").removeClass("active");
 	});
 
+	// service-carousel-3 active
+	$('.apperience-carousel').owlCarousel({
+		loop: true,
+		smartSpeed: 800,
+		nav: true,
+		dots: false,
+		margin: 12,
+		navText: ["<i class='fal fa-angle-left'></i>", "<i class='fal fa-angle-right'></i>"],
+		//autoplay: true,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1,
+				margin: 0
+			},
+			576: {
+				items: 2
+			},
+			992: {
+				items: 3
+			},
+			1200: {
+				items: 4
+			}
+		}
+	});
+
 	// WOW active
 	new WOW().init();
 
